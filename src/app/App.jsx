@@ -6,6 +6,7 @@ import StackSkills from '../components/stack-skills/StackSkills'
 import Projects from '../components/projects/Projects'
 import Contacts from '../components/contacts/Contacts'
 import Footer from '../components/footer/Footer'
+import footerImg from '../assets/2.png'
 
 function App() {
   return (
@@ -18,7 +19,7 @@ function App() {
       <Contacts />
       <Footer />
 
-      <a href="#top"><img src="src/assets/2.png" alt="Go to top" className="footer-img" /></a>
+      <a href="#top"><img src={footerImg} alt="Go to top" className="footer-img" /></a>
     </>
   )
 }
