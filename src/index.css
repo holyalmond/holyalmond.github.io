@@ -1,0 +1,133 @@
+:root {
+  font-family: "Lexend Giga", sans-serif;
+  font-optical-sizing: auto;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  background-color: #000000;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  min-width: 100%;
+  width: 100%;
+  color: #ffffff;
+  overflow-x: hidden;
+}
+
+/* Add scroll offset for anchor links */
+#about-me, #stack-skills, #projects, #contacts {
+  scroll-margin-top: 100px;
+}
+
+.zetta {
+  font-family: "Lexend Zetta", sans-serif;
+  font-optical-sizing: auto;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: normal;
+  margin-bottom: 40px
+}
+
+.terminal {
+  font-size: 20px;
+  line-height: 1.6;
+  text-align: left;
+}
+
+.command {
+  display: block;
+  margin-bottom: 0px;
+}
+
+.highlight-orange {
+  color: #e9950c;
+}
+
+.highlight-pink {
+  color: #c2165e;
+}
+
+.highlight-teal {
+  color: #00a47b;
+}
+
+.output p {
+  margin: 0;
+  color: #e0e0e0;
+}
+
+@media (max-width: 768px) {
+  h3 {
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+  
+  .terminal {
+    font-size: 16px;
+  }
+
+  .command {
+    font-size: 16px;
+  }
+
+  .output p {
+    font-size: 14px;
+  }
+
+  .logo span {
+    font-size: 18px;
+  }
+
+  .link {
+    font-size: 14px;
+  }
+
+  #about-me, #stack-skills, #projects, #contacts {
+    scroll-margin-top: 80px;
+  }
+}
+
+@media (max-width: 480px) {  
+  h3 {
+    font-size: 14px;
+    margin-bottom: 25px;
+  }
+  
+  .terminal {
+    font-size: 14px;
+  }
+
+  .command {
+    font-size: 14px;
+  }
+
+  .output p {
+    font-size: 12px;
+  }
+
+  .logo span {
+    font-size: 16px;
+  }
+
+  .link {
+    font-size: 12px;
+  }
+
+  #about-me, #stack-skills, #projects, #contacts {
+    scroll-margin-top: 60px;
+  }
+}
